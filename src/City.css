@@ -1,0 +1,10 @@
+.city-name {
+  display: block;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 48px;
+  padding: 22px;
+}

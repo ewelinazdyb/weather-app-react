@@ -1,0 +1,13 @@
+.humidity,
+.wind-speed {
+  margin-top: 35px;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.humidity-icon,
+.wind-icon {
+  position: relative;
+  top: 4px;
+  font-size: 34px;
+}

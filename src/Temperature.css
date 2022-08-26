@@ -1,0 +1,19 @@
+.todays-icon {
+  position: relative;
+  top: -12px;
+  margin-right: 5px;
+  font-size: 62px;
+}
+
+.todays-temp {
+  font-size: 92px;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.units {
+  position: relative;
+  top: -50px;
+  font-size: 18px;
+  font-weight: 300;
+}

@@ -1,0 +1,23 @@
+.weekly-forecast {
+  margin-left: 155px;
+  margin-right: 155px;
+  text-align: center;
+}
+
+.weekday {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+
+.forecast-icons {
+  font-size: 30px;
+}
+
+.small-temps {
+  font-size: 14px;
+}
+
+.min {
+  opacity: 0.8;
+}
