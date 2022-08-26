@@ -5,21 +5,20 @@ export default function Search() {
   return (
     <div className="search">
       <div className="box search-box">
-        <form id="search-city-form">
+        <form >
           <input
             id="search-city-input"
             className="form-control"
             type="text"
             placeholder="Search city"
-            autocomplete="off"
           />
-          <button type="submit" className="submit-button" id="submit-button">
+          <button type="submit" className="submit-button">
             Go!
           </button>
         </form>
       </div>
 
-      <button className="current-button" id="current-button">
+      <button className="current-button">
         Current
       </button>
     </div>

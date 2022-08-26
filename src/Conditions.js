@@ -3,7 +3,7 @@ import "./Conditions.css";
 
 export default function Conditions() {
   return (
-    <h3 className="conditions" id="conditions">
+    <h3 className="conditions">
       cloudy
     </h3>
   );

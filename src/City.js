@@ -3,7 +3,7 @@ import "./City.css";
 
 export default function City() {
   return (
-    <h2 className="city-name" id="city-name">
+    <h2 className="city-name">
       Where to?
     </h2>
   );

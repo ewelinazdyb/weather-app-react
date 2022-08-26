@@ -7,7 +7,7 @@ export default function Humidity() {
     <div className="col">
       <h4 className="humidity">
         <FontAwesomeIcon icon="water" className="humidity-icon" />
-        <span id="humidity"> 40%</span>
+        <span > 40%</span>
       </h4>
     </div>
   );

@@ -6,12 +6,12 @@ export default function Temperature() {
   return (
     <div className="col">
       <h1>
-        <span id="todays-icon" className="todays-icon">
+        <span  className="todays-icon">
           {" "}
           <FontAwesomeIcon icon="cloud" />
         </span>
 
-        <span className="todays-temp" id="todays-temp">
+        <span className="todays-temp" >
           24
         </span>
         <small className="units">°C</small>

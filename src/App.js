@@ -1,5 +1,4 @@
 import "./App.css";
-import ReactDOM from "react-dom";
 import Search from "./Search";
 import Date from "./Date";
 import Forecast from "./Forecast";
