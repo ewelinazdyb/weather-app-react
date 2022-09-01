@@ -1,6 +1,5 @@
 import "./App.css";
 import Search from "./Search";
-import Date from "./Date";
 import Forecast from "./Forecast";
 import Footer from "./Footer";
 
@@ -13,7 +12,6 @@ function App() {
     <div className="App">
       <div className="container">
         <Search />
-        <Date />
         <Forecast defaultCity="Paris" />
         <Footer />
       </div>

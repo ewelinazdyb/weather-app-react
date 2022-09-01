@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Forecast.css";
+import FormattedDate from "./FormattedDate";
 import WeeklyForecast from "./WeeklyForecast";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,6 +12,7 @@ export default function Forecast(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
+      date: new Date(response.data.dt * 1000),
       conditions: response.data.weather[0].main,
       temperature: Math.round(response.data.main.temp),
       humidity: response.data.main.humidity,
@@ -22,6 +24,7 @@ export default function Forecast(props) {
   if (weatherData.ready) {
     return (
       <div className="forecast">
+        <FormattedDate date={weatherData.date} />
         <div className="box">
           <div className="forecast-text">
             <h2 className="city-name">Where to?</h2>
