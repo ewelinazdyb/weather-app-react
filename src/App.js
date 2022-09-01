@@ -14,7 +14,7 @@ function App() {
       <div className="container">
         <Search />
         <Date />
-        <Forecast />
+        <Forecast defaultCity="Paris" />
         <Footer />
       </div>
     </div>

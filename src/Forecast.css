@@ -29,3 +29,55 @@
 .todays-forecast {
   margin-bottom: 40px;
 }
+
+.city-name {
+  display: block;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 48px;
+  padding: 22px;
+}
+
+.conditions {
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: -10px;
+}
+
+.todays-icon {
+  position: relative;
+  top: -12px;
+  margin-right: 5px;
+  font-size: 62px;
+}
+
+.todays-temp {
+  font-size: 92px;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.units {
+  position: relative;
+  top: -50px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.humidity,
+.wind-speed {
+  margin-top: 35px;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.humidity-icon,
+.wind-icon {
+  position: relative;
+  top: 4px;
+  font-size: 34px;
+}
