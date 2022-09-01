@@ -1,6 +1,5 @@
 import "./App.css";
 import Search from "./Search";
-import Forecast from "./Forecast";
 import Footer from "./Footer";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -11,8 +10,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Search />
-        <Forecast defaultCity="Paris" />
+        <Search defaultCity="Paris" />
         <Footer />
       </div>
     </div>
