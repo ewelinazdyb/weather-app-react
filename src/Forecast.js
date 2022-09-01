@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Forecast.css";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 import WeeklyForecast from "./WeeklyForecast";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -25,8 +26,7 @@ export default function Forecast(props) {
             <div className="col">
               <h1>
                 <span className="todays-icon">
-                  {" "}
-                  <FontAwesomeIcon icon="cloud" />
+                  <WeatherIcon icon={props.data.icon} />
                 </span>
 
                 <span className="todays-temp">{props.data.temperature}</span>

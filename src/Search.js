@@ -26,11 +26,12 @@ export default function Search(props) {
     setWeatherData({
       ready: true,
       date: new Date(response.data.dt * 1000),
+      city: response.data.name,
       conditions: response.data.weather[0].main,
+      icon: response.data.weather[0].icon,
       temperature: Math.round(response.data.main.temp),
       humidity: response.data.main.humidity,
       wind: Math.round(response.data.wind.speed),
-      city: response.data.name,
     });
   }
 
@@ -43,7 +44,7 @@ export default function Search(props) {
               id="search-city-input"
               className="form-control"
               type="text"
-              placeholder="Search city"
+              placeholder="Where to?"
               onChange={handleCityChange}
             />
             <button type="submit" className="submit-button">
