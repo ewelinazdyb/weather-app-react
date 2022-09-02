@@ -1,8 +1,16 @@
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  solid,
+  regular,
+  brands,
+  icon,
+} from "@fortawesome/fontawesome-svg-core/import.macro";
+
 export default function WeatherIcon(props) {
   const codeMapping = {
-    "01d": `<i className="fa-solid fa-sun"></i>`,
+    "01d": `<FontAwesomeIcon icon={regular('sun')} />`,
     "02d": `<i className="fa-solid fa-cloud"></i>`,
     "03d": `<i className="fa-solid fa-cloud"></i>`,
     "04d": `<i className="fa-solid fa-cloud"></i>`,
