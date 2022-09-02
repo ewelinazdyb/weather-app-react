@@ -7,7 +7,6 @@ import Forecast from "./Forecast";
 export default function Search(props) {
   const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({ ready: false });
-  let [loading, setLoading] = useState(true);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -66,7 +65,7 @@ export default function Search(props) {
     search();
     return (
       <div className="loading">
-        <ClipLoader color="#45AEE9" loading={loading} size={150} />
+        <ClipLoader color="#45AEE9" size={150} />
       </div>
     );
   }
