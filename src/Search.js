@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ClipLoader from "react-spinners/ClipLoader";
 import axios from "axios";
 import "./Search.css";
 import Forecast from "./Forecast";
@@ -6,6 +7,7 @@ import Forecast from "./Forecast";
 export default function Search(props) {
   const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({ ready: false });
+  let [loading, setLoading] = useState(true);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -62,7 +64,10 @@ export default function Search(props) {
     );
   } else {
     search();
-
-    return <h4 className="loading">"Fetching data..."</h4>;
+    return (
+      <div className="loading">
+        <ClipLoader color="#45AEE9" loading={loading} size={150} />
+      </div>
+    );
   }
 }
