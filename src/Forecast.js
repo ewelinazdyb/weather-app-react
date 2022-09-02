@@ -25,9 +25,8 @@ export default function Forecast(props) {
 
             <div className="col">
               <h1>
-                <span className="todays-icon">
                   <WeatherIcon icon={props.data.icon} />
-                </span> <span className="todays-temp">{props.data.temperature}</span>
+               <span className="todays-temp">{props.data.temperature}</span>
                 <small className="units">°C</small>
               </h1>
               <p className="temp-units">

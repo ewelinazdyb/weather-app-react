@@ -23,6 +23,7 @@ export default function Search(props) {
   }
 
   function handleResponse(response) {
+    console.log(response.data.weather[0].icon);
     setWeatherData({
       ready: true,
       date: new Date(response.data.dt * 1000),
