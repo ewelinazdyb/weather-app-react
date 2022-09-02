@@ -6,8 +6,8 @@
   transform: translate(-50%, -50%);
   height: 450px;
   width: 700px;
-  padding-top: 20px;
-  padding-bottom: 22px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   background-color: #0d86dd;
   border-radius: 460px;
   box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.35);
@@ -24,22 +24,21 @@
 }
 
 .todays-forecast {
-  margin-bottom: 14px;
   text-align: center;
 }
 
 .todays-forecast {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .city-name {
   display: block;
-  margin: 0 auto;
   font-size: 40px;
   font-weight: 200;
-  line-height: 28px;
   letter-spacing: 1px;
-  margin-bottom: 48px;
+  line-height: 28px;
+  margin: 0 auto 48px;
   padding: 22px;
 }
 
@@ -51,15 +50,16 @@
 }
 
 .todays-icon {
+  font-size: 62px;
+  margin-right: 5px;
   position: relative;
   top: -12px;
-  margin-right: 5px;
-  font-size: 62px;
 }
 
 .todays-temp {
   font-size: 92px;
   font-weight: 300;
+  margin-bottom: 0;
 }
 
 .units {
@@ -71,16 +71,16 @@
 
 .humidity,
 .wind-speed {
-  margin-top: 35px;
   font-size: 28px;
   font-weight: 200;
+  margin-top: 35px;
 }
 
 .humidity-icon,
 .wind-icon {
+  font-size: 34px;
   position: relative;
   top: 4px;
-  font-size: 34px;
 }
 
 .cel-to-far {
@@ -100,6 +100,8 @@
 }
 
 .temp-units {
+  margin: 0px;
+  position: relative;
   font-size: 15px;
-  margin-top: -12px;
+  top: -20px;
 }

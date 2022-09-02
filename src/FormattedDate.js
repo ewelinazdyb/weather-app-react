@@ -25,7 +25,11 @@ export default function FormattedDate(props) {
   return (
     <div className="date">
       <h4>
-        Last updated: {day} {hour}:{minutes}
+        Last updated:
+        <strong>
+          {" "}
+          {day} {hour}:{minutes}
+        </strong>
       </h4>
     </div>
   );

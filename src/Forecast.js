@@ -27,20 +27,18 @@ export default function Forecast(props) {
               <h1>
                 <span className="todays-icon">
                   <WeatherIcon icon={props.data.icon} />
-                </span>
-
-                <span className="todays-temp">{props.data.temperature}</span>
+                </span> <span className="todays-temp">{props.data.temperature}</span>
                 <small className="units">°C</small>
-                <p className="temp-units">
-                  <a href="/" className="far-to-cel">
-                    °C
-                  </a>{" "}
-                  |{" "}
-                  <a href="/" className="cel-to-far">
-                    °F
-                  </a>
-                </p>
               </h1>
+              <p className="temp-units">
+                <a href="/" className="far-to-cel">
+                  °C
+                </a>{" "}
+                |{" "}
+                <a href="/" className="cel-to-far">
+                  °F
+                </a>
+              </p>
             </div>
 
             <div className="col">
