@@ -30,7 +30,7 @@ export default function Search(props) {
       city: response.data.name,
       conditions: response.data.weather[0].main,
       icon: response.data.weather[0].icon,
-      temperature: Math.round(response.data.main.temp),
+      temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
       wind: Math.round(response.data.wind.speed),
     });

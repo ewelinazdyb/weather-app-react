@@ -76,7 +76,7 @@
   top: 4px;
 }
 
-.cel-to-far {
+.unit {
   display: inline;
   margin: 0 auto;
   font-size: 13px;
@@ -84,12 +84,13 @@
   color: #edf344;
 }
 
-.far-to-cel {
+.unit a {
   display: inline;
   margin: 0 auto;
   font-size: 13px;
   font-style: italic;
   color: #edf344;
+  text-decoration: none;
 }
 
 .temp-units {

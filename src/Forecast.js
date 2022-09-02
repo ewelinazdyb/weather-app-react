@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Forecast.css";
 import FormattedDate from "./FormattedDate";
-import WeatherIcon from "./WeatherIcon";
+import CurrentTemperature from "./CurrentTemperature";
 import WeeklyForecast from "./WeeklyForecast";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -23,22 +23,10 @@ export default function Forecast(props) {
               </h4>
             </div>
 
-            <div className="col">
-              <h1>
-                  <WeatherIcon icon={props.data.icon} />
-                <span className="todays-temp">{props.data.temperature}</span>
-                <small className="units">°C</small>
-              </h1>
-              <p className="temp-units">
-                <a href="/" className="far-to-cel">
-                  °C
-                </a>{" "}
-                |{" "}
-                <a href="/" className="cel-to-far">
-                  °F
-                </a>
-              </p>
-            </div>
+            <CurrentTemperature
+              celsius={props.data.temperature}
+              icon={props.data.icon}
+            />
 
             <div className="col">
               <h4 className="wind-speed">
