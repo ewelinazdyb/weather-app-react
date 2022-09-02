@@ -1,12 +1,11 @@
 .date h4 {
   position: fixed;
-  top: 32px;
+  top: 30px;
   right: 30px;
   color: #edf344;
-  font-family: "Prompt", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  padding: 10px 22px;
+  font-size: 27px;
+  font-weight: 200;
+  padding: 13px 24px;
   border: 1px solid #0d86dd;
   background-color: #0d86dd;
   border-radius: 40px;
