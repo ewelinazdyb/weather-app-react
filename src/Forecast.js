@@ -31,15 +31,7 @@ export default function Forecast(props) {
 
                 <span className="todays-temp">{props.data.temperature}</span>
                 <small className="units">°C</small>
-                <p className="temp-units">
-                  <a href="/" className="far-to-cel">
-                    °C
-                  </a>{" "}
-                  |{" "}
-                  <a href="/" className="cel-to-far">
-                    °F
-                  </a>
-                </p>
+              
               </h1>
             </div>
 
