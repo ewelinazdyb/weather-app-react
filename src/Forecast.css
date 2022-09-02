@@ -6,6 +6,8 @@
   transform: translate(-50%, -50%);
   height: 450px;
   width: 700px;
+  padding-top: 20px;
+  padding-bottom: 22px;
   background-color: #0d86dd;
   border-radius: 460px;
   box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.35);
@@ -18,16 +20,16 @@
 }
 
 .forecast-text {
-  margin-top: 25px;
   color: #edf344;
 }
 
 .todays-forecast {
+  margin-bottom: 14px;
   text-align: center;
 }
 
 .todays-forecast {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .city-name {
@@ -57,7 +59,6 @@
 
 .todays-temp {
   font-size: 92px;
-  margin-bottom: 0px;
   font-weight: 300;
 }
 
@@ -100,7 +101,5 @@
 
 .temp-units {
   font-size: 15px;
-  margin-top: -10px;
-  margin-bottom: 10px;
-  padding: 0px;
+  margin-top: -12px;
 }
