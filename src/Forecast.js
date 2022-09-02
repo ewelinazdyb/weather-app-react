@@ -13,7 +13,7 @@ export default function Forecast(props) {
       <div className="box">
         <div className="forecast-text">
           <h2 className="city-name">{props.data.city.toUpperCase()}</h2>
-          <h3 className="conditions">{props.data.conditions}</h3>
+          <h3 className="conditions">{props.data.conditions.toLowerCase()}</h3>
 
           <div className="row todays-forecast">
             <div className="col">
@@ -31,6 +31,15 @@ export default function Forecast(props) {
 
                 <span className="todays-temp">{props.data.temperature}</span>
                 <small className="units">°C</small>
+                <p className="temp-units">
+                  <a href="/" className="far-to-cel">
+                    °C
+                  </a>{" "}
+                  |{" "}
+                  <a href="/" className="cel-to-far">
+                    °F
+                  </a>
+                </p>
               </h1>
             </div>
 

@@ -45,6 +45,8 @@ export default function Search(props) {
               className="form-control"
               type="text"
               placeholder="Where to?"
+              autoComplete="off"
+              autoFocus="on"
               onChange={handleCityChange}
             />
             <button type="submit" className="submit-button">
@@ -60,6 +62,6 @@ export default function Search(props) {
   } else {
     search();
 
-    return "Fetching data...";
+    return <h4 className="loading">"Fetching data..."</h4>;
   }
 }
