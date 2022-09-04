@@ -27,6 +27,7 @@ export default function Search(props) {
     console.log(response.data.weather[0].icon);
     setWeatherData({
       ready: true,
+      coord: response.data.coord,
       date: new Date(response.data.dt * 1000),
       city: response.data.name,
       conditions: response.data.weather[0].main,

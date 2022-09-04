@@ -1,5 +1,4 @@
 import React from "react";
-import "./WeatherIcon.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
@@ -27,5 +26,5 @@ export default function WeatherIcon(props) {
     "50n": <FontAwesomeIcon icon={solid("smog")} />,
   };
 
-  return <span className="todays-icon">{codeMapping[props.icon]}</span>;
+  return <span>{codeMapping[props.icon]}</span>;
 }

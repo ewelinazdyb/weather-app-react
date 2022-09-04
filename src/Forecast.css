@@ -49,6 +49,13 @@
   margin-bottom: -10px;
 }
 
+.todays-icon {
+  font-size: 62px;
+  margin-right: 5px;
+  position: relative;
+  top: -12px;
+}
+
 .todays-temp {
   font-size: 92px;
   font-weight: 300;

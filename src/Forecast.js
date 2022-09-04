@@ -35,7 +35,7 @@ export default function Forecast(props) {
               </h4>
             </div>
           </div>
-          <WeeklyForecast />
+          <WeeklyForecast coord={props.data.coord} />
         </div>
       </div>
     </div>
