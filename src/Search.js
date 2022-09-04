@@ -24,7 +24,6 @@ export default function Search(props) {
   }
 
   function handleResponse(response) {
-    console.log(response.data.weather[0].icon);
     setWeatherData({
       ready: true,
       coord: response.data.coord,
