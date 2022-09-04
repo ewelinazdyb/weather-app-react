@@ -40,28 +40,6 @@
   opacity: 0.9;
 }
 
-.current-button {
-  display: block;
-  position: fixed;
-  top: 30px;
-  left: 360px;
-  height: 60px;
-  width: 133px;
-  font-family: "Prompt", sans-serif;
-  font-weight: 400;
-  font-size: 23px;
-  background-color: #0d86dd;
-  color: #edf344;
-  border: none;
-  border-radius: 40px;
-  box-shadow: 2px 3px 10px 2px rgba(0, 0, 0, 0.25);
-  transition: all 100ms ease-in-out;
-}
-
-.current-button:hover {
-  opacity: 0.9;
-}
-
 .loading {
   margin: 0 auto;
   position: absolute;

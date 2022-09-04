@@ -56,7 +56,6 @@ export default function Search(props) {
             </button>
           </form>
         </div>
-        <button className="current-button">Current</button>
 
         <Forecast data={weatherData} />
       </div>
