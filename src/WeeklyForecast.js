@@ -3,8 +3,6 @@ import "./WeeklyForecast.css";
 import axios from "axios";
 import WeeklyForecastDay from "./WeeklyForecastDay";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 export default function WeeklyForecast(props) {
   const [ready, setReady] = useState(false);
   const [forecastData, setForecastData] = useState(null);
@@ -18,11 +16,15 @@ export default function WeeklyForecast(props) {
     return (
       <div className="weekly-forecast">
         <div class="row">
-          <WeeklyForecastDay data={forecastData[0]} />
-          <WeeklyForecastDay data={forecastData[1]} />
-          <WeeklyForecastDay data={forecastData[2]} />
-          <WeeklyForecastDay data={forecastData[3]} />
-          <WeeklyForecastDay data={forecastData[4]} />
+          {forecastData.map(function (dailyForecast, index) {
+            if (index < 5) {
+              return (
+                <div className="col" key={index}>
+                  <WeeklyForecastDay data={dailyForecast} />
+                </div>
+              );
+            }
+          })}
         </div>
       </div>
     );

@@ -24,7 +24,7 @@ export default function WeeklyForecastDay(props) {
   }
 
   return (
-    <div className="col">
+    <div className="weekly-forecast-day">
       <p className="weekday">{day()}</p>
       <div className="forecast-icon">
         <WeatherIcon icon={props.data.weather[0].icon} />
