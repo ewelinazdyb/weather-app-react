@@ -20,7 +20,7 @@
 }
 
 .forecast-text {
-  color: #edf344;
+  color: #060606;
 }
 
 .todays-forecast {
@@ -88,7 +88,7 @@
   margin: 0 auto;
   font-size: 13px;
   font-style: italic;
-  color: #edf344;
+  color: #060606;
 }
 
 .unit a {
@@ -96,7 +96,7 @@
   margin: 0 auto;
   font-size: 13px;
   font-style: italic;
-  color: #edf344;
+  color: #060606;
   text-decoration: none;
 }
 

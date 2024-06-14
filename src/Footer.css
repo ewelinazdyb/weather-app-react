@@ -1,5 +1,5 @@
 a {
-  color: #0d86dd;
+  color: #e0e0e0;
 }
 
 .footer {
@@ -13,6 +13,6 @@ a {
   text-align: center;
   font-size: 14px;
   font-family: "Red Hat Display", sans-serif;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(239, 239, 239, 0.6);
   padding: 5px;
 }
