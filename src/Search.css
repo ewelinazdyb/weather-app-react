@@ -2,16 +2,16 @@
   position: fixed;
   top: 30px;
   left: 30px;
-  height: 60px;
+  height: 38px;
   width: 250px;
-  background-color: #949494;
+  background-color: #6f6f6f;
   border-radius: 40px;
   box-shadow: 2px 3px 10px 2px rgba(0, 0, 0, 0.25);
 }
 
 #search-city-input {
   width: 220px;
-  height: 34px;
+  height: 28px;
   position: fixed;
   top: 42px;
   left: 45px;
@@ -23,12 +23,12 @@
   position: fixed;
   top: 30px;
   left: 290px;
-  height: 60px;
-  width: 60px;
+  height: 38px;
+  width: 38px;
   font-family: "Prompt", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 23px;
-  background-color: #949494;
+  background-color: #6f6f6f;
   color: #e0e0e0;
   border: none;
   border-radius: 50%;
