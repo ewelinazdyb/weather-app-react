@@ -30,7 +30,7 @@ export default function Forecast(props) {
 
             <div className="col">
               <h4 className="wind-speed">
-                <span id="wind-speed">{props.data.wind} m/s </span>
+                <span id="wind-speed">{props.data.wind}m/s </span>
                 <FontAwesomeIcon icon="wind" className="wind-icon" />
               </h4>
             </div>
