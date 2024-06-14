@@ -11,8 +11,8 @@ export default function Footer() {
           rel="noreferrer"
           style="color:#e0e0e0"
         >
-          Open-source code{" "}
-        </a>
+          Open-source code
+        </a>{" "}
         by Ewelina Zdybel
       </p>
     </div>
