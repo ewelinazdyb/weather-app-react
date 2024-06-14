@@ -2,13 +2,13 @@
   position: fixed;
   top: 30px;
   right: 30px;
-  color: #edf344;
+  color: #e0e0e0;
   font-family: "Prompt", sans-serif;
   font-weight: 200;
   font-size: 18px;
   padding: 10px 22px;
-  border: 1px solid #0d86dd;
-  background-color: #0d86dd;
+  border: 1px solid #959595;
+  background-color: #959595;
   border-radius: 40px;
   box-shadow: 2px 3px 10px 2px rgba(0, 0, 0, 0.25);
 }
