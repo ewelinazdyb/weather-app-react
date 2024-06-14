@@ -9,7 +9,7 @@ export default function Footer() {
           href="https://github.com/ewelinazdyb/weather-app-react"
           target="_blank"
           rel="noreferrer"
-          style="color:#e0e0e0;"
+        
         >
           Open-source code
         </a>{" "}
