@@ -4,7 +4,7 @@
   left: 30px;
   height: 60px;
   width: 250px;
-  background-color: #4a4a4a 90%;
+  background-color: #949494;
   border-radius: 40px;
   box-shadow: 2px 3px 10px 2px rgba(0, 0, 0, 0.25);
 }
@@ -28,8 +28,8 @@
   font-family: "Prompt", sans-serif;
   font-weight: 400;
   font-size: 23px;
-  background-color: #4a4a4a;
-  color: #060606;
+  background-color: #949494;
+  color: #e0e0e0;
   border: none;
   border-radius: 50%;
   box-shadow: 2px 3px 10px 2px rgba(0, 0, 0, 0.25);
